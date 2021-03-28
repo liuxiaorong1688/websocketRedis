@@ -37,6 +37,9 @@ public class RedisListenerHandle extends MessageListenerAdapter {
     @Autowired
     private ChatService chatService;
 
+    private String name;
+
+    private String age;
     /**
      * 收到监听消息
      * @param message
